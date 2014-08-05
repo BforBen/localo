@@ -1,0 +1,13 @@
+<ul class="list-group">
+{% assign sorted_pages = site.pages | sort:"title" %}
+{% for p in sorted_pages %}
+  {% if p.category == link_cat %}
+  {% if p.type == 'spec' %}
+    <li class="list-group-item">
+        <a href="{{ p.url }}" title="The Localo spec for {{ p.title }}">{{ p.title }}</a>
+{{ p.subtitle }}
+    </li>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
