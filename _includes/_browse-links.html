@@ -1,13 +1,15 @@
-<ul class="list-group">
-{% assign sorted_pages = site.pages | sort:"title" %}
+{% assign sorted_pages = (site.pages | sort:"version" | where: "category", link_cat | where: "type", "spec" ) %}
 {% for p in sorted_pages %}
-  {% if p.category == link_cat %}
-  {% if p.type == 'spec' %}
+  {% ifchanged p.version %}
+    {% if forloop.index > 0 %}
+    </ul>
+    {% endif %}
+    <h4>Version {{ p.version }}</h4>
+    <ul>
+  {% endifchanged %}
     <li class="list-group-item">
         <a href="{{ p.url }}" title="The Localo spec for {{ p.title }}">{{ p.title }}</a>
-{{ p.subtitle }}
+        {{ p.subtitle }}
     </li>
-  {% endif %}
-  {% endif %}
 {% endfor %}
 </ul>

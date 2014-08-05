@@ -1,0 +1,8 @@
+{% assign sorted_pages = (site.pages | sort:"version" | where: "category", version_category | where: "type", "spec" ) %}
+<ul>
+{% for p in sorted_pages %}
+  {% ifchanged p.version %}
+    <li><a href="{{ site.url }}/{{ p.category }}/v{{ p.version }}">Version {{ p.version }}</a></li>
+  {% endifchanged %}
+{% endfor %}
+</ul>

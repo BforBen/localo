@@ -2,10 +2,6 @@
 layout: default
 title: Principles
 ---
-<div class="page-header">
-  <h1>Localo principles</h1>
-</div>
-
 1. This project rigorously researches and studies existing specifications and reuses suitable existing work wherever possible. It looks for existing specifications that balance breadth of adoption with quality of modeling. It **prioritizes reuse over novelty**.
 
 1. This specification satisfies a broad range of use cases, without requiring an exhaustive vocabulary of terms. It **focuses on flexibility** to do more with fewer terms.

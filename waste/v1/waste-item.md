@@ -77,14 +77,12 @@ Few specifications exist for waste collections, and many organisations don't pub
   <li><a href="#count-schema">JSON Schema</a></li>
   <li><a href="#count-context">JSON-LD Context</a></li>
   <li class="active"><a href="#count-json">JSON</a></li>
-  <li><a href="#count-rdf">RDF</a></li>
 </ul>
 
 <div class="tab-content no-js">
-  <div class="tab-pane" id="count-schema" data-url="{{ site.url }}/schemas/waste-item.json"></div>
-  <div class="tab-pane" id="count-context" data-url="{{ site.url }}/contexts/waste-item.jsonld"></div>
-  <div class="tab-pane active" id="count-json" data-url="{{ site.url }}/examples/waste-item.json"></div>
-  <div class="tab-pane" id="count-rdf" data-url="{{ site.url }}/examples/waste-item.ttl"></div>
+  <div class="tab-pane" id="count-schema" data-url="{{ site.url }}/{{ page.category }}/v{{ page.version }}/schemas/{{ page.id }}.json"></div>
+  <div class="tab-pane" id="count-context" data-url="{{ site.url }}/{{ page.category }}/v{{ page.version }}/contexts/{{ page.id }}.jsonld"></div>
+  <div class="tab-pane active" id="count-json" data-url="{{ site.url }}/{{ page.category }}/v{{ page.version }}/examples/{{ page.id }}.json"></div>
 </div>
 
 <h2 id="code-lists">5. Code lists</h2>

@@ -1,8 +1,8 @@
 safe:        true
 
-# baseurl:     /    
+baseurl:     /    
 
-url: 
+#url: 
 source:      ./
 destination: ./_site
 plugins:     ./_plugins
