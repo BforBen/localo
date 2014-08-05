@@ -1,9 +1,8 @@
----
+﻿---
 layout: default
 title: Terms
 id: data
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

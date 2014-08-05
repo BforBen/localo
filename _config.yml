@@ -1,5 +1,19 @@
-url: http://localgovdigital.github.io/localo
-markdown: redcarpet
+safe:        true
+
+# baseurl:     /    
+
+url: 
+source:      ./
+destination: ./_site
+plugins:     ./_plugins
+future:      true
+lsi:         false
+highlighter:    
+
+markdown:    kramdown
+highlighter:    
+permalink:   :category/:title/
+
 exclude:
 - src
 - CNAME
@@ -9,3 +23,24 @@ exclude:
 - README.md
 - VERSION
 
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: ''
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+sass:
+  syntax: scss        # scss|sass
+  style:  compressed  # nested|expanded|compact|compressed

@@ -1,9 +1,8 @@
----
+﻿---
 layout: default
-title: Data Model Patterns | Localo
+title: Data Model Patterns
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

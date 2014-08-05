@@ -1,9 +1,8 @@
----
+﻿---
 layout: default
-title: Examples | Localo
+title: Examples
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

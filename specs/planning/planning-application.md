@@ -1,7 +1,10 @@
 ---
 layout: class
-title: Planning Application | Localo
-id: waste-collection
+title: Planning application
+id: planning-application
+version: 1
+category: planning
+type: spec
 ---
 
 <ul class="breadcrumb">

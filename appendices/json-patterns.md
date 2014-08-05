@@ -1,9 +1,8 @@
 ---
 layout: default
-title: JSON Serialization Patterns | Localo
+title: JSON Serialization Patterns
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

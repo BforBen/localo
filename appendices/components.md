@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Best Practices for Software Components | Localo
+title: Best Practices for Software Components
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

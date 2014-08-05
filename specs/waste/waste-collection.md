@@ -1,18 +1,14 @@
 ---
 layout: class
-title: Waste Collection | Localo
+title: Waste collection
+subtitle: A waste collection is an object detailing the properties of a refuse and recycling collection.
 id: waste-collection
+version: 1
+category: waste
+type: spec
 ---
 
-<ul class="breadcrumb">
-  <li><a href="/specs/">Data Specification</a></li>
-  <li><a href="/specs/#classes-and-properties">Classes and properties</a></li>
-  <li class="active">Waste Collection</li>
-</ul>
-
-A waste collection is an object detailing the properties of a refuse and recycling collection.
-
-<h1 id="use-cases-and-requirements">1. Use cases &amp; requirements</h1>
+<h2 id="use-cases-and-requirements">1. Use cases &amp; requirements</h2>
 
 1. type
 
@@ -38,11 +34,11 @@ A waste collection is an object detailing the properties of a refuse and recycli
 
     >e.g car batteries, paint
 
-<h1 id="standard-reuse">2. Standard reuse</h1>
+<h2 id="standard-reuse">2. Standard reuse</h2>
 
 Few specifications exist for waste collections, and many organisations don't publish their waste collection information in machine readable format.
 
-<h1 id="classes-and-properties">3. Classes and properties</h1>
+<h2 id="classes-and-properties">3. Classes and properties</h2>
 
 <table>
   <thead>
@@ -71,7 +67,7 @@ Few specifications exist for waste collections, and many organisations don't pub
   </tbody>
 </table>
 
-<h1 id="serialization">4. Serialization</h1>
+<h2 id="serialization">4. Serialization</h2>
 
 **JSON differences from other RDF serializations:**
 
@@ -89,20 +85,20 @@ Few specifications exist for waste collections, and many organisations don't pub
   <div class="tab-pane" id="count-rdf" data-url="{{ site.url }}/examples/waste-collection.ttl"></div>
 </div>
 
-<h1 id="code-lists">5. Code lists</h1>
+<h2 id="code-lists">5. Code lists</h2>
 
-## Option
+### Option
 
 Implementations <em class="rfc2119">may</em> use values from outside this list to reflect the diversity of waste collection options.
 
-### Type
+#### Type
 
 * `refuse`
 * `recycling`
 * `garden`
 * `food`
 
-### Frequency
+#### Frequency
 
 * `daily`
 * `weekly`

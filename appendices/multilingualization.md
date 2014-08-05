@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Multilingualization | Localo
+title: Multilingualization
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

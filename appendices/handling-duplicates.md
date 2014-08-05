@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Handling Duplicates | Localo
+title: Handling Duplicates
 id: appendix
 ---
-{% include navigation.html %}
 
 <ul class="breadcrumb">
   <li><a href="/specs/">Data Specification</a></li>

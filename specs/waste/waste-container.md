@@ -1,18 +1,14 @@
 ---
 layout: class
-title: Waste container | Localo
+title: Waste container
+subtitle: A waste container is an object detailing the properties of a container for a type of waste.
 id: waste-container
+version: 1
+category: waste
+type: spec
 ---
 
-<ul class="breadcrumb">
-  <li><a href="/specs/">Data Specification</a></li>
-  <li><a href="/specs/#classes-and-properties">Classes and properties</a></li>
-  <li class="active">Waste container</li>
-</ul>
-
-A waste container is an object detailing the properties of a container for a type of waste.
-
-<h1 id="use-cases-and-requirements">1. Use cases &amp; requirements</h1>
+<h2 id="use-cases-and-requirements">1. Use cases &amp; requirements</h2>
 
 1. name
 
@@ -34,11 +30,11 @@ A waste container is an object detailing the properties of a container for a typ
 
     >e.g http://www.localo.org/waste/images/container_1.png
 
-<h1 id="standard-reuse">2. Standard reuse</h1>
+<h2 id="standard-reuse">2. Standard reuse</h2>
 
 Few specifications exist for waste collections, and many organisations don't publish their waste collection information in machine readable format.
 
-<h1 id="classes-and-properties">3. Classes and properties</h1>
+<h2 id="classes-and-properties">3. Classes and properties</h2>
 
 <table>
   <thead>
@@ -82,7 +78,7 @@ Few specifications exist for waste collections, and many organisations don't pub
   </tbody>
 </table>
 
-<h1 id="serialization">4. Serialization</h1>
+<h2 id="serialization">4. Serialization</h2>
 
 **JSON differences from other RDF serializations:**
 
@@ -100,6 +96,4 @@ Few specifications exist for waste collections, and many organisations don't pub
   <div class="tab-pane" id="count-rdf" data-url="{{ site.url }}/examples/waste-container.ttl"></div>
 </div>
 
-<h1 id="code-lists">5. Code lists</h1>
-
-
+<h2 id="code-lists">5. Code lists</h2>
