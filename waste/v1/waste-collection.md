@@ -1,10 +1,7 @@
 ---
-layout: class
 title: Waste collection
 subtitle: A waste collection is an object detailing the properties of a refuse and recycling collection.
 id: waste-collection
-version: 1
-category: waste
 type: spec
 ---
 

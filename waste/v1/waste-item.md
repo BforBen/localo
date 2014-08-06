@@ -1,10 +1,7 @@
 ---
-layout: class
 title: Waste item
 subtitle: A waste item is an object detailing the properties of a single of waste.
 id: waste-item
-version: 1
-category: waste
 type: spec
 ---
 

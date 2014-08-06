@@ -1,18 +1,37 @@
 safe:        true
 
-baseurl:     /localo    
+#baseurl:     http://bforben.github.io/localo/
 
-#url: 
 source:      ./
 destination: ./_site
 plugins:     ./_plugins
 future:      true
 lsi:         false
-highlighter:    
-
 markdown:    kramdown
-highlighter:    
-permalink:   :category/:title/
+highlighter: 
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "spec"
+    values:
+      layout: "class"
+  -
+    scope:
+      path: "waste"
+    values:
+      category: "waste"
+  -
+    scope:
+      path: "waste/v1"
+    values:
+      version: 1
 
 exclude:
 - src

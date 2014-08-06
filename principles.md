@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Principles
 ---
 1. This project rigorously researches and studies existing specifications and reuses suitable existing work wherever possible. It looks for existing specifications that balance breadth of adoption with quality of modeling. It **prioritizes reuse over novelty**.

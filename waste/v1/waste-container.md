@@ -1,10 +1,7 @@
 ---
-layout: class
 title: Waste container
 subtitle: A waste container is an object detailing the properties of a container for a type of waste.
 id: waste-container
-version: 1
-category: waste
 type: spec
 ---
 

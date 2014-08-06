@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Localo
 ---
 This project's goal is to author, through community consensus, **local government data specifications** relating to the services and information provided by local government. A related goal is to make it easier for civic developers to create additional software built on these standards.
