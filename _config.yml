@@ -32,6 +32,7 @@ defaults:
       path: "waste/v1"
     values:
       version: 1
+      phase: "Pre-Alpha"
 
 exclude:
 - src
@@ -60,7 +61,3 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
-
-sass:
-  syntax: scss        # scss|sass
-  style:  compressed  # nested|expanded|compact|compressed

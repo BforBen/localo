@@ -314,3 +314,24 @@ body
             padding-bottom: 4em;
             margin-bottom: 1em;
         }
+		
+		.label-pre-alpha
+		{
+			background-color: #912b88;
+		}
+		.label-alpha
+		{
+			background-color: #d53880;
+		}
+		.label-beta
+		{
+			background-color: #f47738;
+		}
+		.label-live
+		{
+			background-color: #85994b;
+		}
+		.label-retirement
+		{
+			background-color: #bfc1c3;
+		}
