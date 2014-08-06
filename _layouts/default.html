@@ -49,6 +49,8 @@
                         {% if page.type == 'index' and page.version %}
                         <li><a href="{{ page.category }}/">{{ page.category | capitalize }}</a></li>
                         <li>Version {{ page.version }}</li>
+                        {% elsif page.type == 'index' %}
+                        <li>{{ page.category | capitalize }}</li>
                         {% elsif page.type == 'spec' %}
                         <li><a href="{{ page.category }}/">{{ page.category | capitalize }}</a></li>
                         <li><a href="{{ page.category }}/v{{ page.version }}/">Version {{ page.version }}</a></li>
