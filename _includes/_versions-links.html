@@ -2,7 +2,7 @@
 <ul>
 {% for p in sorted_pages %}
   {% ifchanged p.version %}
-    <li><a href="{{ site.baseurl }}/{{ p.category }}/v{{ p.version }}">Version {{ p.version }}</a></li>
+    <li><a href="{{ site.baseurl }}/{{ p.category }}/v{{ p.version }}/">Version {{ p.version }}</a></li>
   {% endifchanged %}
 {% endfor %}
 </ul>
