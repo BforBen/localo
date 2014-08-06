@@ -41,6 +41,7 @@ exclude:
 - Rakefile
 - README.md
 - VERSION
+- specs/index.md
 
 rdiscount:
   extensions: []

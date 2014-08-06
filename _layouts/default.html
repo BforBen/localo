@@ -106,13 +106,13 @@
                 {% if page.category %}
                 <div>
                     <ol role="breadcrumbs" class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="{{ site.baseurl }}/">Home</a></li>
                         {% if page.type == 'index' and page.version %}
-                        <li><a href="/{{ page.category }}">{{ page.category | capitalize }}</a></li>
+                        <li><a href="{{ page.category }}">{{ page.category | capitalize }}</a></li>
                         <li>Version {{ page.version }}</li>
                         {% elsif page.type == 'spec' %}
-                        <li><a href="/{{ page.category }}">{{ page.category | capitalize }}</a></li>
-                        <li><a href="/{{ page.category }}/v{{ page.version }}">Version {{ page.version }}</a></li>
+                        <li><a href="{{ page.category }}">{{ page.category | capitalize }}</a></li>
+                        <li><a href="{{ page.category }}/v{{ page.version }}">Version {{ page.version }}</a></li>
                         <li>{{ page.title }}</li>
                         {% endif %}
                     </ol>
@@ -129,7 +129,7 @@
 
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="/js/highlight.pack.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
