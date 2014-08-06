@@ -259,7 +259,14 @@ body
             background-color: #0277bb;
             margin-top: 0;
         }
-
+.navbar-lgdm .navbar-toggle .icon-bar
+{
+  background-color: #fff;
+}
+.navbar-lgdm .navbar-toggle
+{
+  margin-top: 13px;
+}
         .navbar-brand {
             color: #fff;
             font-size: 24px;
