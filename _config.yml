@@ -1,6 +1,6 @@
 safe:        true
 
-baseurl:     http://bforben.github.io/localo/
+baseurl:     http://bforben.github.io/localo
 
 source:      ./
 destination: ./_site
