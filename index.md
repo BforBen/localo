@@ -25,7 +25,8 @@ This project's goal is to author, through community consensus, **local governmen
       {% for p in sorted_pages %}
         {% ifchanged p.category %}
           <h3 id="#{{ p.category }}"><a href="{{ p.category }}/">{{ p.category | capitalize }}</a></h3>
-          
+          {% assign version_category = p.category %}
+          {% include _versions-links.html %}
         {% endifchanged %}
       {% endfor %}
   </div>
