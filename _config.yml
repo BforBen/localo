@@ -19,7 +19,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "spec"
+      type: spec
     values:
       layout: "class"
   -

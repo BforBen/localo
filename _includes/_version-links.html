@@ -2,7 +2,7 @@
 <ul>
 {% for p in sorted_pages %}
     <li class="list-group-item">
-        <a href="{{ p.url }}" title="The Localo spec for {{ p.title }}">{{ p.title }}</a>
+        <a href="{{ site.baseurl }}{{ p.url }}" title="The Localo spec for {{ p.title }}">{{ p.title }}</a>
         {{ p.subtitle }}
     </li>
 {% endfor %}
