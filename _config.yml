@@ -1,6 +1,6 @@
 safe:        true
 
-baseurl:     
+baseurl:     /localo
 
 source:      ./
 destination: ./_site
